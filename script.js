@@ -71,7 +71,7 @@ if(answer5 !== input5){
     }else if (score == 1){
         document.writeln(`<bold>You have earned <italic>Bronze</italic>medal</bold>`);
     }else{
-        document.write(`<bold>Sorry,you did not achive any medal this time,come next time.</bold>`);
+        document.write(`<bold>Sorry,you did not achive any medal this time,try again.</bold>`);
         }
     
 
