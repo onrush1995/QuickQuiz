@@ -63,19 +63,16 @@ if(answer5 !== input5){
     score++;
 }
 
-for (var i= 0;i<score;i++){
-    if(score == 5){
+
+   if(score == 5 || score == 4){
         document.writeln(`<bold>You have earned <italic>Gold</italic>medal</bold>`);
-    }else if (score == 4){
+    }else if (score == 3 || score == 2){
         document.writeln(`<bold>You have earned <italic>Silver</italic>medal</bold>`);
-    }else if (score == 3){
+    }else if (score == 1){
         document.writeln(`<bold>You have earned <italic>Bronze</italic>medal</bold>`);
-    }else if (score ==2){
-        document.writeln(`<bold>Sorry,you did not achive any medal this time</bold>`);
-    }else if (score<=1){
-        document.writeln(`<bold>Sorry,you did not achive any medal this time,come next time.</bold>`);
-    }
-        
-    }
+    }else{
+        document.write(`<bold>Sorry,you did not achive any medal this time,come next time.</bold>`);
+        }
+    
 
 
